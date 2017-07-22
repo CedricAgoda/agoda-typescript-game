@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "types": [
+      "jquery"
+    ],
+    "lib": ["es2015", "es2017", "dom"]
+  },
+  "files": [
+    "./src/index.ts",
+    "./node_modules/phaser-ce/typescript/phaser.comments.d.ts"
+  ]
+}
